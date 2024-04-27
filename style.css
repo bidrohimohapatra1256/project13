@@ -5,6 +5,10 @@ body{
     
     font-family: roboto,sans-serif;
 }
+body.dark{
+    background-color: rgb(37, 33, 33);
+color: white;
+}
 .cont{
     border: 8px solid blue;
     padding: 2px;
