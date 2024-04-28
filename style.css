@@ -16,3 +16,7 @@ color: white;
     border-radius: 50px;
 
 }
+.cont.dark{
+    background-color: rgb(37, 33, 33);
+    color: white;
+}
