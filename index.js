@@ -31,13 +31,6 @@ if (isContainedDarkMode) {
   containedDarkModeCheckbox.checked = true
 }
 
-changeFullDarkMode()
-changeContainedDarkMode()
-
-fullDarkModeCheckbox.addEventListener('change', () => {
-  changeFullDarkMode()
-  changeContainedDarkMode()
-})
 
 function changeFullDarkMode() {
   changeTheme(fullDarkModeCheckbox, document.body, 'fullDarkModeCheckbox')
